@@ -6,10 +6,7 @@ const App = () => {
   return (
     <>
       <Header />
-        <div style={{ width: "300px", height: "300px" }}>
-        <Spline scene="https://prod.spline.design/F2mvwDTtOCAaSwPi/scene.splinecode" />
-
-        </div>
+      <Spline scene="https://prod.spline.design/F2mvwDTtOCAaSwPi/scene.splinecode" />
     </>
   );
 };
