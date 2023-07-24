@@ -1,0 +1,24 @@
+.header {
+    &__nav {
+        &__ul {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            padding: 40px;
+margin: 0;
+            &__li {
+                &__a {
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    &__dark {
+                        color: white
+                    }
+                    &___light {
+                        color: black
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.home {
+    &__h1 {
+        text-align: center;
+        &__dark {
+            color: white;
+        }
+        &__light {
+            color: black;
+        }
+    }
+    &__div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px; 
+        margin: 0 20%;
+    }
+    &__work {
+        display: flex;
+        justify-content: space-around;
+        margin: 0px 20% 50px 20%;
+        &__btn {
+            cursor: pointer;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            &__dark {
+                color: white;
+            }
+            &__light {
+                color: black;
+            }
+            &__current {
+                background-color: green;
+                color: white;
+            }
+            &__close {
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+}
+
+.container {
+    &__dark {
+        background-color: black;
+    }
+    &__light {
+        background-color: white;
+    }
+}
